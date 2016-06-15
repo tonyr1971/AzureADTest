@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSvc", "LocationSvc\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSvcClient", "LocationSvcClient\LocationSvcClient.csproj", "{5D0C0FF7-FC84-49DC-8252-1F9E865CB958}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSvcClient.Trusted", "LocationSvcClient.Trusted\LocationSvcClient.Trusted.csproj", "{AE7DCCCC-C05A-4AD3-B401-3F798FE58B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSvcClient.Daemon", "LocationSvcClient.Daemon\LocationSvcClient.Daemon.csproj", "{4977A4BB-980B-441D-8412-EBC6EE9D613C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{5D0C0FF7-FC84-49DC-8252-1F9E865CB958}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D0C0FF7-FC84-49DC-8252-1F9E865CB958}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D0C0FF7-FC84-49DC-8252-1F9E865CB958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7DCCCC-C05A-4AD3-B401-3F798FE58B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7DCCCC-C05A-4AD3-B401-3F798FE58B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7DCCCC-C05A-4AD3-B401-3F798FE58B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7DCCCC-C05A-4AD3-B401-3F798FE58B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4977A4BB-980B-441D-8412-EBC6EE9D613C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4977A4BB-980B-441D-8412-EBC6EE9D613C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4977A4BB-980B-441D-8412-EBC6EE9D613C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4977A4BB-980B-441D-8412-EBC6EE9D613C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

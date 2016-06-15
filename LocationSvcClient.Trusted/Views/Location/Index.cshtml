@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Location";
+}
+
+<h3>Location</h3>
+
+Location: @ViewBag.Results
+
+@if(ViewBag.ErrorMessage == "AuthorizationReqired")
+{
+    <p>You need to sign in.  @Html.ActionLink("here", "Signin", "Account")</p>
+}
+
+@if (ViewBag.ErrorMessage == "UnexpectedError")
+{
+    <p>Unexpected error...</p>
+}
